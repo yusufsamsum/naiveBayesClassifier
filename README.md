@@ -11,6 +11,11 @@ In the feature files each row contains the feature vector for an email. The j-th
 The file ending with vocab.txt is the vocabulary file in which the j-th word (feature) in the file corresponds to the j-th feature in both train and test sets.
 
 **The data files can be found in the following link:** https://drive.google.com/open?id=1Uq9pw49c9SN28iF07hMvV541v6rzw0dP
+## Predictions and Types in the Program
+There are two type of multinomial naive bayes classifier in this implementation. One of them with maximum likelihood estimator and the other one is maximum a posterior. There are different accuricies for each implementation.
+
+### Prediction Accuracy with MLE: 26%
+### Prediction Accuracy with MAP: 93%
 
 
 
